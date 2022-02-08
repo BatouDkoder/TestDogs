@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.testdogs.core.ui.view.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/tendenciasFragment"
+        android:name="com.example.testdogs.core.ui.view.TendenciasFragment"
+        android:label="tendencias_fragment"
+        tools:layout="@layout/tendencias_fragment" >
+        <action
+            android:id="@+id/action_tendenciasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bandejaFragment"
+        android:name="com.example.testdogs.core.ui.view.BandejaFragment"
+        android:label="bandeja_fragment"
+        tools:layout="@layout/bandeja_fragment" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.testdogs.core.ui.view.PerfilFragment"
+        android:label="perfil_fragment"
+        tools:layout="@layout/perfil_fragment" >
+        <action
+            android:id="@+id/action_perfilFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>

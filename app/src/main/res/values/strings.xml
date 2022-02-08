@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestDogs</string>
+    <string name="profile_breed">Elegir Raza</string>
+    <string name="notFound">No se ha encontrado la raza especificada.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="breeds">
+        <item>Labrador</item>
+        <item>Akita</item>
+        <item>Beagle</item>
+        <item>Vizsla</item>
+    </string-array>
+</resources>

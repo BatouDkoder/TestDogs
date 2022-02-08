@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bottomMenuStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="backgroundColor">@color/dark</item>
+        <item name="android:background">@color/dark</item>
+    </style>
+</resources>
